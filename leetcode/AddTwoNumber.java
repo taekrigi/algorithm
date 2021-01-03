@@ -8,7 +8,7 @@ class ListNode {
       ListNode(int val, ListNode next) { this.val = val; this.next = next; }
  }
  
- class AddToNumber {
+ public class AddTwoNumber {
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
         ListNode input1 = l1;
         ListNode input2 = l2;
