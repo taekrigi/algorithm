@@ -1,3 +1,5 @@
+// https://programmers.co.kr/learn/courses/30/lessons/42578?language=javascript
+
 function solution(clothes) {
   const sizesPerCloth = clothes.reduce((acc, cur) => {
     const [name, type] = cur
