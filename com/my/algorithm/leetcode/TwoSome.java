@@ -1,3 +1,4 @@
+package my.algorithm.leetcode;
 // https://leetcode.com/problems/two-sum/
 
 public class TwoSome {

@@ -1,15 +1,16 @@
-// https://leetcode.com/problems/add-two-numbers/
+package my.algorithm.leetcode;
 
-class ListNode {
-      int val;
-      ListNode next;
-      ListNode() {}
-      ListNode(int val) { this.val = val; }
-      ListNode(int val, ListNode next) { this.val = val; this.next = next; }
- }
- 
+// https://leetcode.com/problems/add-two-numbers/
  public class AddTwoNumber {
-    public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
+	 class ListNode {
+	      int val;
+	      ListNode next;
+	      ListNode() {}
+	      ListNode(int val) { this.val = val; }
+	      ListNode(int val, ListNode next) { this.val = val; this.next = next; }
+	 }
+	 
+     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
         ListNode input1 = l1;
         ListNode input2 = l2;
         ListNode output = new ListNode(0);
@@ -34,5 +35,5 @@ class ListNode {
         if (carry > 0) curr.next = new ListNode(carry);
         
         return output.next;   
-    }
+     }
 }
