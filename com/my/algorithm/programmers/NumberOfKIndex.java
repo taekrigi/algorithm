@@ -2,6 +2,7 @@ package my.algorithm.programmers;
 
 import java.util.Arrays;
 
+// https://programmers.co.kr/learn/courses/30/lessons/42748
 public class NumberOfKIndex {
 
 	 public int[] solution(int[] array, int[][] commands) {
