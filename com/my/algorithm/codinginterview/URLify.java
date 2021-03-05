@@ -1,5 +1,10 @@
 package my.algorithm.codinginterview;
 
+import static org.junit.jupiter.api.Assertions.assertEquals;
+
+import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.BeforeEach;
+
 /*
  * P.284 - 1.3
  * 
@@ -8,7 +13,7 @@ package my.algorithm.codinginterview;
  * 문자열에 들어 있는 모든 공백을 '%20' 으로 바꾸는 메소드를 작성하라.
  */
 public class URLify {
-	
+
 	public void replaceSpaces(char[] str, int trueLength) {
 		int spaceCount = 0, index, i = 0;
 		for (i = 0; i < trueLength; i++) {
@@ -32,7 +37,4 @@ public class URLify {
 		}
 	}
 
-	public static void main(String[] args) {
-		
-	}
 }
