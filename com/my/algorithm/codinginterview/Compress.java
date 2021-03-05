@@ -2,6 +2,8 @@ package my.algorithm.codinginterview;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
+import java.util.Arrays;
+
 import org.junit.jupiter.api.Test;
 
 /*
@@ -30,6 +32,9 @@ public class Compress {
 	
 	@Test
 	public void aabcccaaa_는_a2b1c5a3_로_압축된다() {
+		System.out.println(Arrays.stream(new int[] {1,2,0})
+				.filter(i -> i != 0)
+				.toArray());
 		assertEquals(compress("aabcccaaa"), "a2b1c3a3");
 	}
 }
