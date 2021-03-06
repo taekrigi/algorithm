@@ -3,9 +3,6 @@ package my.algorithm.programmers;
 import java.util.Arrays;
 import java.util.stream.IntStream;
 
-import org.junit.jupiter.api.Test;
-import org.junit.platform.commons.util.StringUtils;
-
 // https://programmers.co.kr/learn/courses/30/lessons/42840
 public class PracticeTest {
 	

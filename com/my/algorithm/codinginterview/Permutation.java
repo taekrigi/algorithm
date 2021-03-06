@@ -1,7 +1,5 @@
 package my.algorithm.codinginterview;
 
-import org.junit.jupiter.api.Test;
-
 /*
  * P.78 - ¿¹Á¦ 12
  * 
