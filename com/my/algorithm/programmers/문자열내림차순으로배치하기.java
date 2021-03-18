@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.stream.Collectors;
 
 // https://programmers.co.kr/learn/courses/30/lessons/12917
-public class ¹®ÀÚ¿­³»¸²Â÷¼øÀ¸·Î¹èÄ¡ÇÏ±â {
+public class ë¬¸ìì—´ë‚´ë¦¼ì°¨ìˆœìœ¼ë¡œë°°ì¹˜í•˜ê¸° {
 	
 	 public String solution(String s) {
 	        return Arrays.stream(s.split(""))

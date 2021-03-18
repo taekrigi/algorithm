@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 // https://programmers.co.kr/learn/courses/30/lessons/12910
-public class ³ª´©¾î¶³¾îÁö´Â¼ıÀÚ¹è¿­ {
+public class ë‚˜ëˆ„ì–´ë–¨ì–´ì§€ëŠ”ìˆ«ìë°°ì—´ {
 
 	 public int[] solution(int[] arr, int divisor) {
 	        List<Integer> list = new ArrayList<>();

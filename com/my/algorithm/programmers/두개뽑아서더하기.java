@@ -5,7 +5,7 @@ import java.util.HashSet;
 import java.util.Set;
 
 // https://programmers.co.kr/learn/courses/30/lessons/68644
-public class µÎ°³»Ì¾Æ¼­´õÇÏ±â {
+public class ë‘ê°œë½‘ì•„ì„œë”í•˜ê¸° {
 	
 	public int[] solution(int[] numbers) {
         Set<Integer> sums = new HashSet<>();

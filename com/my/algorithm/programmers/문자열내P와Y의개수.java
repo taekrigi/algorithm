@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 // https://programmers.co.kr/learn/courses/30/lessons/12916
-public class ¹®ÀÚ¿­³»P¿ÍYÀÇ°³¼ö {
+public class ë¬¸ìì—´ë‚´Pì™€Yì˜ê°œìˆ˜ {
 	
 	boolean solution(String s) {
         Map<String, Integer> map = new HashMap<>();

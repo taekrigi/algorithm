@@ -1,7 +1,7 @@
 package my.algorithm.programmers;
 
 // https://programmers.co.kr/learn/courses/30/lessons/12921
-public class ¼Ò¼öÃ£±â {
+public class ì†Œìˆ˜ì°¾ê¸° {
 	
 	 public int solution(int n) {
          int answer = 0;

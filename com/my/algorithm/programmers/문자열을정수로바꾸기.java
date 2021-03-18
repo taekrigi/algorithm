@@ -1,7 +1,7 @@
 package my.algorithm.programmers;
 
 // https://programmers.co.kr/learn/courses/30/lessons/12925
-public class ¹®ÀÚ¿­À»Á¤¼ö·Î¹Ù²Ù±â {
+public class ë¬¸ìì—´ì„ì •ìˆ˜ë¡œë°”ê¾¸ê¸° {
 	
 	public int solution(String s) {
         return Integer.parseInt(

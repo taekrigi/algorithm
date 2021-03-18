@@ -1,11 +1,11 @@
 package my.algorithm.programmers;
 
 // https://programmers.co.kr/learn/courses/30/lessons/12919
-public class ¼­¿ï¿¡¼­±è¼­¹æÃ£±â {
+public class ì„œìš¸ì—ì„œê¹€ì„œë°©ì°¾ê¸° {
 	
 	 public String solution(String[] seoul) {
 	        for (int i = 0; i < seoul.length; i++) {
-	            if ("Kim".equals(seoul[i])) return String.format("±è¼­¹æÀº %d¿¡ ÀÖ´Ù", i);
+	            if ("Kim".equals(seoul[i])) return String.format("ï¿½è¼­ï¿½ï¿½ï¿½ï¿½ %dï¿½ï¿½ ï¿½Ö´ï¿½", i);
 	        }
 	        return null;
 	    }

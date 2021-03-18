@@ -3,7 +3,7 @@ package my.algorithm.programmers;
 import java.util.Arrays;
 
 // https://programmers.co.kr/learn/courses/30/lessons/12918
-public class ¹®ÀÚ¿­´Ù·ç±â±âº» {
+public class ë¬¸ìì—´ë‹¤ë£¨ê¸°ê¸°ë³¸ {
 	
 	 public boolean solution(String s) {
 	        return (s.length() == 4 || s.length() == 6) && 

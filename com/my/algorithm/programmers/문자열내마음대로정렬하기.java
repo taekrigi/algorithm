@@ -3,7 +3,7 @@ package my.algorithm.programmers;
 import java.util.Arrays;
 
 // https://programmers.co.kr/learn/courses/30/lessons/12915
-public class ¹®ÀÚ¿­³»¸¶À½´ë·ÎÁ¤·ÄÇÏ±â {
+public class ë¬¸ìì—´ë‚´ë§ˆìŒëŒ€ë¡œì •ë ¬í•˜ê¸° {
 	
 	public String[] solution(String[] strings, int n) {
         return Arrays.stream(strings)

@@ -1,7 +1,7 @@
 package my.algorithm.programmers;
 
 // https://programmers.co.kr/learn/courses/30/lessons/12912
-public class µÎÁ¤¼ö»çÀÌÀÇÇÕ {
+public class ë‘ì •ìˆ˜ì‚¬ì´ì˜í•© {
 	
 	 public long solution(int a, int b) {
 	        if (a == b) return a;

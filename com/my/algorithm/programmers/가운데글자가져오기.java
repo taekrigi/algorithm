@@ -1,7 +1,7 @@
 package my.algorithm.programmers;
 
 // https://programmers.co.kr/learn/courses/30/lessons/12903
-public class °¡¿îµ¥±ÛÀÚ°¡Á®¿À±â {
+public class ê°€ìš´ë°ê¸€ìê°€ì ¸ì˜¤ê¸° {
 
 	public String solution(String s) {
         boolean isEven = s.length() % 2 == 0;

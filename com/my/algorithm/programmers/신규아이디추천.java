@@ -1,7 +1,7 @@
 package my.algorithm.programmers;
 
 // https://programmers.co.kr/learn/courses/30/lessons/72410
-public class ½Å±Ô¾ÆÀÌµğÃßÃµ {
+public class ì‹ ê·œì•„ì´ë””ì¶”ì²œ {
 	
 	 public String solution(String new_id) {
 	        String answer = new_id.toLowerCase();

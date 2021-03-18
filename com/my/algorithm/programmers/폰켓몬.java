@@ -5,7 +5,7 @@ import java.util.Set;
 import java.util.stream.Collectors;
 
 // https://programmers.co.kr/learn/courses/30/lessons/1845
-public class ÆùÄÏ¸ó {
+public class í°ì¼“ëª¬ {
 
 	public int solution(int[] nums) {
         Set<Integer> set = Arrays.stream(nums).boxed().collect(Collectors.toSet());

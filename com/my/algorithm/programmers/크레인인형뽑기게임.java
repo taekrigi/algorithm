@@ -3,7 +3,7 @@ package my.algorithm.programmers;
 import java.util.Stack;
 
 // https://programmers.co.kr/learn/courses/30/lessons/64061
-public class Å©·¹ÀÎÀÎÇü»Ì±â°ÔÀÓ {
+public class í¬ë ˆì¸ì¸í˜•ë½‘ê¸°ê²Œì„ {
 	
 	public int solution(int[][] board, int[] moves) {
         Stack<Integer> basket = new Stack<>();
