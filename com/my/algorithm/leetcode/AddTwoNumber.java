@@ -13,10 +13,10 @@ package my.algorithm.leetcode;
      public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
         ListNode input1 = l1;
         ListNode input2 = l2;
-        ListNode output = new ListNode(0);
+        ListNode output = new ListNode(0); 
         ListNode curr = output;
         
-        int carry = 0;
+        int carry = 0; 
         
         while (input1 != null || input2 != null) {
             int input1Value = input1 != null ? input1.val : 0;
