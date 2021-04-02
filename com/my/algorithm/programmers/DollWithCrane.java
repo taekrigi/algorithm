@@ -3,7 +3,7 @@ package my.algorithm.programmers;
 import java.util.Stack;
 
 // https://programmers.co.kr/learn/courses/30/lessons/64061
-public class 크레인인형뽑기게임 {
+public class DollWithCrane {
 	
 	public int solution(int[][] board, int[] moves) {
         Stack<Integer> basket = new Stack<>();

@@ -1,7 +1,7 @@
 package my.algorithm.programmers;
 
 // https://programmers.co.kr/learn/courses/30/lessons/67256
-public class 키패드누르기 {
+public class PressingKeypad {
 	
 	public String solution(int[] numbers, String hand) {
 		StringBuilder sb = new StringBuilder();
@@ -45,8 +45,6 @@ public class 키패드누르기 {
     
     
 	private int getPoint(int lastNumber, int number) {
-	    int diff = Math.abs(lastNumber - number);
-        
         lastNumber = lastNumber == 0 ? 11 : lastNumber;
         number = number == 0 ? 11 : number;
         

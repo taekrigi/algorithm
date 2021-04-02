@@ -3,7 +3,7 @@ package my.algorithm.programmers;
 import java.util.Arrays;
 
 // https://programmers.co.kr/learn/courses/30/lessons/12915
-public class 문자열내마음대로정렬하기 {
+public class SortStringInMyMind {
 	
 	public String[] solution(String[] strings, int n) {
         return Arrays.stream(strings)

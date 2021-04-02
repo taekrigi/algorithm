@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 // https://programmers.co.kr/learn/courses/30/lessons/12910
-public class 나누어떨어지는숫자배열 {
+public class ArrayDivide {
 
 	 public int[] solution(int[] arr, int divisor) {
 	        List<Integer> list = new ArrayList<>();

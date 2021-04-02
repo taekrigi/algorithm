@@ -1,7 +1,7 @@
 package my.algorithm.programmers;
 
 // https://programmers.co.kr/learn/courses/30/lessons/12925
-public class 문자열을정수로바꾸기 {
+public class ChangeStringToInteger {
 	
 	public int solution(String s) {
         return Integer.parseInt(

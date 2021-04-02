@@ -1,7 +1,7 @@
 package my.algorithm.programmers;
 
 // https://programmers.co.kr/learn/courses/30/lessons/12921
-public class 소수찾기 {
+public class FindingPrime {
 	
 	 public int solution(int n) {
          int answer = 0;

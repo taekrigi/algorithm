@@ -1,7 +1,7 @@
 package my.algorithm.programmers;
 
 // https://programmers.co.kr/learn/courses/30/lessons/12928
-public class 약수의합 {
+public class SummingDivisor {
 	
 	public int solution(int n) {
         int sum = n == 0 || n == 1 ? 

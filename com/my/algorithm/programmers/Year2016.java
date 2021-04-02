@@ -3,7 +3,7 @@ package my.algorithm.programmers;
 import java.util.Calendar;
 
 // https://programmers.co.kr/learn/courses/30/lessons/12901
-public class 이천십육년 {
+public class Year2016 {
 	
 	public String solution(int a, int b) throws Exception {
         Calendar cal = Calendar.getInstance();

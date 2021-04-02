@@ -15,7 +15,7 @@ public class Cache {
            String city = cities[i].toLowerCase();
             
             if (isZeroCache) {
-               answer += 5;
+                answer += 5;
             } else if (cache.containsKey(city)) {
         		cache.put(city, i);
         		answer += 1;

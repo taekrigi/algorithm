@@ -1,7 +1,7 @@
 package my.algorithm.programmers;
 
 // https://programmers.co.kr/learn/courses/30/lessons/12912
-public class 두정수사이의합 {
+public class AddTwoInteger {
 	
 	 public long solution(int a, int b) {
 	        if (a == b) return a;

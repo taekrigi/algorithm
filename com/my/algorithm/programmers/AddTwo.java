@@ -5,7 +5,7 @@ import java.util.HashSet;
 import java.util.Set;
 
 // https://programmers.co.kr/learn/courses/30/lessons/68644
-public class 두개뽑아서더하기 {
+public class AddTwo {
 	
 	public int[] solution(int[] numbers) {
         Set<Integer> sums = new HashSet<>();

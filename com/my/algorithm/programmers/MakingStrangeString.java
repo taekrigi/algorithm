@@ -3,7 +3,7 @@ package my.algorithm.programmers;
 import java.util.ArrayList;
 import java.util.List;
 
-public class 이상한문자만들기 {
+public class MakingStrangeString {
 	
 	public String solution(String s) {
         StringBuilder sb = new StringBuilder();

@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.stream.Collectors;
 
 // https://programmers.co.kr/learn/courses/30/lessons/12917
-public class 문자열내림차순으로배치하기 {
+public class StringDesc {
 	
 	 public String solution(String s) {
 	        return Arrays.stream(s.split(""))

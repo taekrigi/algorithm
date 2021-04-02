@@ -4,7 +4,7 @@ import java.util.HashSet;
 import java.util.Set;
 
 // https://programmers.co.kr/learn/courses/30/lessons/42862
-public class 체육복 {
+public class GymSuit {
 	
 	 public int solution(int n, int[] lost, int[] reserve) {
 	        Set<Integer> lostSet = toSet(lost);

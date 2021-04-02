@@ -2,7 +2,7 @@ package my.algorithm.leetcode;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import java.util.Arrays;
+import java.util.Stack;
 
 import org.junit.jupiter.api.Test;
 
@@ -34,6 +34,18 @@ public class RangeAdditionII {
 	
 	@Test
 	public void Å×½ºÆ®1() {
+		 Stack<Character> stack = new Stack<>();
+		 
+		 String s = "aaa";
+	        
+	        for (int i = 0; i < s.length(); i++) {
+	            if (stack.isEmpty() || s.charAt(i) != stack.peek()) {
+	                stack.add(s.charAt(i));
+	            } else {
+	               
+	            }
+	        }
+	        
 		assertEquals(maxCount(3, 3, new int[][] {{2, 2}, {3, 3}}), 4);
 	}
 	

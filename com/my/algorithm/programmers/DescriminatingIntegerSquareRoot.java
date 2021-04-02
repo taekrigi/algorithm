@@ -1,6 +1,6 @@
 package my.algorithm.programmers;
 
-public class 정수제곱근판별 {
+public class DescriminatingIntegerSquareRoot {
 	
 	 public long solution(long n) {
         double sqrt = Math.sqrt(n);

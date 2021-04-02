@@ -1,7 +1,7 @@
 package my.algorithm.programmers;
 
 // https://programmers.co.kr/learn/courses/30/lessons/12903
-public class 가운데글자가져오기 {
+public class MiddleLetter {
 
 	public String solution(String s) {
         boolean isEven = s.length() % 2 == 0;

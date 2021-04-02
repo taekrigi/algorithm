@@ -1,7 +1,7 @@
 package my.algorithm.programmers;
 
 // https://programmers.co.kr/learn/courses/30/lessons/72410
-public class 신규아이디추천 {
+public class RecommendingNewId {
 	
 	 public String solution(String new_id) {
 	        String answer = new_id.toLowerCase();

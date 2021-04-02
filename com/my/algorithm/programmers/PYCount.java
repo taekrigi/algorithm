@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 // https://programmers.co.kr/learn/courses/30/lessons/12916
-public class 문자열내P와Y의개수 {
+public class PYCount {
 	
 	boolean solution(String s) {
         Map<String, Integer> map = new HashMap<>();
