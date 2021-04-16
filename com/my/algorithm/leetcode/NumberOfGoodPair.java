@@ -13,7 +13,7 @@ public class NumberOfGoodPair {
 		
 		int sum = 0;
 		for (Map.Entry<Integer, Integer> entry : pairs.entrySet()) {
-            if (entry.getValue() != 1) {
+            if (!isOnlyOne(entry.getValue())) {
                sum += sumSequence(entry.getValue()); 
             }
 		}
@@ -22,10 +22,10 @@ public class NumberOfGoodPair {
     }
 	
 	private int sumSequence(int num) {
-		int sum = 1;
-		for (int i = 2; i < num; i++) {
-			sum += i;
-		}
-		return sum;
+		return num * (num - 1) / 2;
+	}
+	
+	private boolean isOnlyOne(int value) {
+		return value == 1;
 	}
 }
