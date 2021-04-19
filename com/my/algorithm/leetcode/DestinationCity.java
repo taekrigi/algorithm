@@ -4,6 +4,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+// https://leetcode.com/problems/destination-city/submissions/
 public class DestinationCity {
 	
 	public String destCity(List<List<String>> paths) {
