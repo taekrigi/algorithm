@@ -1,6 +1,5 @@
 package my.algorithm.leetcode;
 
-import java.util.Arrays;
 import java.util.HashSet;
 import java.util.Set;
 
@@ -8,10 +7,12 @@ import java.util.Set;
 public class JewelsAndStones {
 	
 	public int numJewelsInStones(String jewels, String stones) {
-		Set<String> jewelsSet = new HashSet<>(Arrays.asList(jewels.split("")));
+		Set<String> jewelsSet = new HashSet<>();
 		
-		return (int) Arrays.stream(stones.split(""))
-				.filter(jewelsSet::contains)
+		for (int i = 0; i < jewels.length(); i++) jewelsSet.add(String.valueOf(jewels.charAt(i)));
+		
+		return (int) stones.chars()
+				.filter(i -> jewels.contains(String.valueOf((char) i)))
 				.count();
 	}
 
