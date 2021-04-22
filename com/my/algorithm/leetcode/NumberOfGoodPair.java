@@ -8,25 +8,20 @@ public class NumberOfGoodPair {
 	
 	public int numIdenticalPairs(int[] nums) {
 		Map<Integer, Integer> pairs = new HashMap<>();
-		for (int num : nums) {
-			pairs.put(num, pairs.getOrDefault(num, 0) + 1);
-		}
 		
-		int sum = 0;
-		for (Map.Entry<Integer, Integer> entry : pairs.entrySet()) {
-			if (!isOnlyOne(entry.getValue())) {
-				sum += sumSequence(entry.getValue());
-			}
-		}
-		
-		return sum;
+		for (int num : nums) pairs.put(num, pairs.getOrDefault(num, 0) + 1);
+
+		return pairs.values().stream()
+				.filter(this::isNotOnlyOne)
+				.mapToInt(this::sumSequence)
+				.sum();
 	}
 
 	private int sumSequence(int num) {
 		return num * (num - 1) / 2;
 	}
 	
-	private boolean isOnlyOne(int value) {
-		return value == 1;
+	private boolean isNotOnlyOne(int value) {
+		return value != 1;
 	}
 }
