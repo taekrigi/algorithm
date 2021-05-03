@@ -1,7 +1,9 @@
 package my.algorithm.leetcode;
 
 import java.util.Arrays;
+import java.util.stream.IntStream;
 
+// https://leetcode.com/problems/height-checker/submissions/
 public class HeightChecker {
 	
 	public int heightChecker(int[] heights) {
@@ -9,14 +11,9 @@ public class HeightChecker {
 				.sorted()
 				.toArray();
 		
-		int count = 0;
-		for (int i = 0; i < heights.length; i++) {
-			if (heights[i] != ascendingHeights[i]) {
-				count++;
-			}
-		}
-		
-		return count;
+		return (int) IntStream.range(0, heights.length)
+				.filter(i -> heights[i] != ascendingHeights[i])
+				.count();
 	}
 
 }
