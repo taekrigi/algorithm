@@ -1,25 +1,28 @@
 package my.algorithm.leetcode;
 
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
-import java.util.stream.Collectors;
 
 // https://leetcode.com/problems/minimum-subsequence-in-non-increasing-order/
 public class MinimumSubsequenceInNonIncreasingOrder {
 
 	public List<Integer> minSubsequence(int[] nums) {
-		int total = Arrays.stream(nums).sum();
+		Arrays.sort(nums);
 		
-		List<Integer> sequenceOrderByDesc = Arrays.stream(nums)
-				.boxed()
-				.sorted((a, b) -> b - a)
-				.collect(Collectors.toList());
+		int total = 0;
+		for (int num : nums) {
+			total += num;
+		}
 		
+		List<Integer> answers = new ArrayList<>();
+	
 		int sum = 0;
-		for (int i = 0; i < sequenceOrderByDesc.size(); i++) {
-			sum += sequenceOrderByDesc.get(i);
+		for (int i = nums.length - 1; i >= 0; i--) {
+			sum += nums[i];
+			answers.add(nums[i]);
 			if (sum > total - sum) {
-				return sequenceOrderByDesc.subList(0, i + 1);
+				return answers;
 			}
 		}
 		
